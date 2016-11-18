@@ -9,9 +9,9 @@
     </head>
     <body>
         <nav class="navbar navbar-default">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="navbar-header">
-                    <a href="#" class="navbar-brand">Green House</a>
+                    <a href="index.html" class="navbar-brand">Green House</a>
                     <button class="navbar-toggle" aria-expanded="false" data-toggle="collapse"
                     data-target="#bs-navbar-collapse-1">
                         <span class="sr-only">Toggle Navigation</span>
@@ -28,10 +28,7 @@
     
                     <div class="navbar-form navbar-right">
                         <div class="form-group">
-                            <a href="#" type="button" role="button" class="btn btn-default">Sin in</a>
-                        </div>
-                        <div class="form-group">
-                            <a href="#" type="button" role="button" class="btn btn-success">Sin up</a>
+                            <a href="sinin.html" type="button" role="button" class="btn btn-default">Sin in</a>
                         </div>
                     </div>
 
@@ -51,7 +48,53 @@
         </nav>
 
         <div class="container">
-            <h1>Hello Green House</h1>
+            <div class="col-md-6 col-md-offset-3">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Sign Up Form
+                </div>
+                <div class="panel-body">
+                    <form>
+                        <div class="form-group">
+                            <div class="col-xs-12">
+                                <label for="exampleInputEmail" class="control-label">Email Address</label>
+                            </div>
+                            <div class="col-sm-12">
+                                <input type="email" class="form-control" 
+                                    id="exampleInputEmail" placeholder="Email"/>
+                            </div>
+                        </div><br/>
+
+                        <div class="form-group">
+                            <div class="col-xs-6">
+                                <label class="control-label" for="exampleInputPassword">Password</label>
+                            </div>
+                            <div class="col-sm-12">
+                                <input class="form-control" type="password" placeholder="Password"
+                                id="exampleInputPassword"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-6">
+                                <label class="control-label" for="exampleInputPassword">Repeat Password</label>
+                            </div>
+                            <div class="col-sm-12">
+                                <input class="form-control" type="password" placeholder="Password"
+                                id="exampleInputPassword"/>
+                            </div>
+                        </div><br/>
+
+                        <div class="form-group">
+                            <div class="col-sm-6">
+                                <button class="btn btn-default" type="button">Submit</button>
+                            </div>
+                            <div class="col-sm-6 text-right">
+                                <a href="sinin.html"><em>Alread have an account?</em></a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
 
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>

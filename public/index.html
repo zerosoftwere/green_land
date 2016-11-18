@@ -9,9 +9,9 @@
     </head>
     <body>
         <nav class="navbar navbar-default">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="navbar-header">
-                    <a href="#" class="navbar-brand">Green House</a>
+                    <a href="index.html" class="navbar-brand">Green House</a>
                     <button class="navbar-toggle" aria-expanded="false" data-toggle="collapse"
                     data-target="#bs-navbar-collapse-1">
                         <span class="sr-only">Toggle Navigation</span>
@@ -31,7 +31,7 @@
                             <a href="sinin.html" type="button" role="button" class="btn btn-default">Sin in</a>
                         </div>
                         <div class="form-group">
-                            <a href="#" type="button" role="button" class="btn btn-success">Sin up</a>
+                            <a href="sinup.html" type="button" role="button" class="btn btn-success">Sin up</a>
                         </div>
                     </div>
 
@@ -51,7 +51,53 @@
         </nav>
 
         <div class="container">
-            <h1>Hello Green House</h1>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="images/woman-and-man-in-fram.jpg" alt="Image1" width="1170" height="658"/>
+                    </div>
+                    <a class="carousel-control left" href="#myCarousel" data-slide="prev" role="button">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="carousel-control right" data-slide="next" href="#myCarousel" role="button">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2 class="section-title"><strong>Our Services</strong></h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="service">
+                        <span class="glyphicon glyphicon-cloud" aria-hidden="true"></span>
+                        <h3><strong>Business - Business</strong></h3>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service">
+                        <span class="glyphicon glyphicon-user" aria-hidden="false"></span>
+                        <h3><strong>Business - Customer</strong></h3>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service">
+                        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                        <h3><strong>Customer - Customer</strong></h3>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua
+                    </div>
+                </div>
+            </div>
         </div>
 
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
