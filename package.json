@@ -1,0 +1,23 @@
+{
+  "name": "green_land",
+  "version": "0.0.1",
+  "description": "Business base networking",
+  "main": "app.js",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zerosoftwere/green_land.git"
+  },
+  "author": "GS2",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zerosoftwere/green_land/issues"
+  },
+  "homepage": "https://github.com/zerosoftwere/green_land#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
